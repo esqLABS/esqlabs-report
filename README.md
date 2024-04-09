@@ -1,6 +1,6 @@
 # ESQlabs Reports Template
 
-This Quarto format will help you create project report for ESQlabs project. This
+This Quarto format will help you create project report for ESQlabs projects. The
 template includes all the formatting options to generate beautiful and clean
 documents in `pdf`, `docx` and `html` formats.
 
