@@ -1,12 +1,72 @@
 ---
 title: "template"
 subtitle: ""
-author: ""
-format: 
-  esqlabs-html
+author: "test"
+institute: "ESQlabs"
+# date: 
 ---
 
 
 
+# Introduction
 
+# Preparation
+
+## Librairies
+
+```{r}
+library(ospsuite)
+```
+
+
+## Data
+
+### Import
+
+
+```{r}
+obsData <- ospsuite::loadDataSetFromPKML(system.file("extdata", "ObsDataAciclovir_1.pkml", package = "ospsuite"))
+```
+
+
+### Clean
+
+### Save
+
+# Simulations
+
+```{r}
+aciclovir_model <- loadSimulation(system.file("extdata", "Aciclovir.pkml", package = "ospsuite"))
+
+simulations <- runSimulations(list(aciclovir_sim = aciclovir_model))
+```
+
+
+
+# Visualisation
+
+## DataCombined
+
+```{r}
+aciclovir_data <- DataCombined$new()
+
+aciclovir_data$addDataSets(obsData,names =  "Observed", groups = "aciclovir")
+
+aciclovir_data$addSimulationResults(simulations[[1]], names = "Simulated", groups = "aciclovir")
+```
+
+## Plots
+
+### Time profile
+
+```{r}
+timeprofile_conf <- DefaultPlotConfiguration$new()
+
+timeprofile_conf$title <- "Aciclovir Concentration Time Profile in Plasma (Peripheral Venous Blood)"
+```
+
+
+```{r}
+plotIndividualTimeProfile(aciclovir_data)
+```
 
