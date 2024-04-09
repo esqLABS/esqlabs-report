@@ -6,7 +6,7 @@ documents in `pdf`, `docx` and `html` formats.
 
   - [PDF Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.pdf)
   - [DOCX Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.docx)
-  - [HTML Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.html)
+  - [HTML Template Preview](template.html)
 
 
 For more about Quarto and how to author documents using Quarto, see the [Quarto
