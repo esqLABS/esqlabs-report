@@ -4,9 +4,9 @@ This Quarto format will help you create project report for ESQlabs project. This
 template includes all the formatting options to generate beautiful and clean
 documents in `pdf`, `docx` and `html` formats.
 
-  - [PDF Template Preview](template.pdf)
-  - [DOCX Template Preview](template.docx)
-  - [HTML Template Preview](template.html)
+  - [PDF Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.pdf)
+  - [DOCX Template Preview]([template.docx](https://github.com/esqLABS/reports-template/raw/main/template.docx))
+  - [HTML Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.html)
 
 
 For more about Quarto and how to author documents using Quarto, see the [Quarto
