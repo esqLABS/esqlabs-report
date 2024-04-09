@@ -5,7 +5,7 @@ template includes all the formatting options to generate beautiful and clean
 documents in `pdf`, `docx` and `html` formats.
 
   - [PDF Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.pdf)
-  - [DOCX Template Preview]([template.docx](https://github.com/esqLABS/reports-template/raw/main/template.docx))
+  - [DOCX Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.docx)
   - [HTML Template Preview](https://github.com/esqLABS/reports-template/raw/main/template.html)
 
 
