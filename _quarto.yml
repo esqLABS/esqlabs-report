@@ -1,0 +1,6 @@
+format: 
+  esqlabs-typst: default
+  esqlabs-docx: default
+  esqlabs-html: default
+  
+# bibliography: references.bib
